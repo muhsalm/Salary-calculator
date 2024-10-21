@@ -6,8 +6,9 @@
 
 import pandas as pd
 import streamlit as st
+import os
 
-file_path = "payrate.xlsx"
+file_path = os.path.join(os.getcwd(), 'payrate.xlsx')
 
 # Load the Excel file
 df = pd.read_excel(file_path)
