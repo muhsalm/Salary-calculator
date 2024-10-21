@@ -7,7 +7,7 @@
 import pandas as pd
 import streamlit as st
 
-file_path = r"C:\Users\saads\Desktop\Data science\my project\Salary security\payrate.xlsx"
+file_path = "payrate.xlsx"
 
 # Load the Excel file
 df = pd.read_excel(file_path)
