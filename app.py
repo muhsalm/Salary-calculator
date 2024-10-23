@@ -25,7 +25,7 @@ types = ["Day", "Night"]
 
 # Creating 11 combination selectors in the sidebar
 combinations = []
-for i in range(1, 9):  # Up to 9 combinations
+for i in range(1, 10):  # Up to 10 combinations
     day = st.sidebar.selectbox(f"Select Day {i}", [""] + days, index=0)
     typ = st.sidebar.selectbox(f"Select Type {i}", [""] + types, index=0)
     if day and typ:
